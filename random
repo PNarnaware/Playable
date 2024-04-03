@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rummy Playable Ad</title>
+  <style>
+     /* Basic styling for card display and UI */
+  </style>
+</head>
+<body>
+    <div id="game-area"></div>
+    <button id="download-btn">Download Now</button>
+
+  <script>
+      // 1. Very simplified Rummy logic 
+
+      // 2. FbPlayableAd.onCTAClick() setup
+      document.getElementById('download-btn').addEventListener('click', function() {
+          FbPlayableAd.onCTAClick();
+      });
+  </script>
+</body>
+</html>
